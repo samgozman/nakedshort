@@ -1,10 +1,7 @@
+/**
+ * Naked short data from from nakedshortreport.com
+ * ! Unofficial API
+ */
 const nakedshort = require('./lib/report')
 
-nakedshort('SPCE')
-
-
-const main = async () => {
-    console.log( await nakedshort('SPCE'))
-}
-
-main()
+module.exports = nakedshort
