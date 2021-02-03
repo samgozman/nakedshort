@@ -1,0 +1,30 @@
+{
+  "name": "nakedshort",
+  "description": "Unofficial API for nakedshortreport.com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://samgozman@github.com/samgozman/nakedshort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samgozman/nakedshort/issues"
+  },
+  "homepage": "https://github.com/samgozman/nakedshort#readme",
+  "dependencies": {
+    "got": "^11.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
