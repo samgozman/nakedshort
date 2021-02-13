@@ -7,7 +7,7 @@ test('Should get correct data from nakedshort', async () => {
     const stock = await nakedshort('AAPL')
 
     // Assert that response is not null at least
-    expect(stock).not.toBeNull()
+    expect(stock).not.toEqual({})
 
     // Assert that String data from the response is correct
     expect(stock.ticker).toBe('AAPL')
