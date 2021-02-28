@@ -1,18 +1,20 @@
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/samgozman/nakedshort/Nakedshort%20Node.js) 
+# nakedshort
+
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/samgozman/nakedshort/Nakedshort%20Node.js)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/652681ae222f4ea8b0cbae3116c3e973)](https://www.codacy.com/gh/samgozman/nakedshort/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=samgozman/nakedshort&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/v/nakedshort)](https://www.npmjs.com/package/nakedshort)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/nakedshort)
 ![NPM](https://img.shields.io/npm/l/nakedshort)
-
-# nakedshort
 
 Get detailed naked short stock data history from nakedshortreport.com
 
 > *Warning! This is unofficial API.*
 
 ## Installation
+
 Install package from NPM
 
-```
+```bash
 npm install nakedshort
 ```
 
@@ -25,6 +27,7 @@ npm install nakedshort
 * Short volume and regular volume as chart data
 
 ## Usage
+
 Use **nakedshort** in async functions
 
 ### .getShortData(ticker)
@@ -33,13 +36,15 @@ Use **nakedshort** in async functions
 const nakedshort = require('nakedshort')
 
 const main = async () => {
-	const stock = await nakedshort.getShortData('GME')
-	console.log(stock)
+  const stock = await nakedshort.getShortData('GME')
+  console.log(stock)
 }
 
 main()
 ```
-**Returns**
+
+#### Returns from getShortData()
+
 > await nakedshort.getShortData('GME')
 
 ```javascript
@@ -64,13 +69,14 @@ main()
 const nakedshort = require('nakedshort')
 
 const main = async () => {
-	const stock = await nakedshort.parsedChartData('GME')
-	console.log(stock)
+  const stock = await nakedshort.parsedChartData('GME')
+  console.log(stock)
 }
 
 main()
 ```
-**Returns**
+
+#### Returns from parsedChartData()
 
 > await nakedshort.parsedChartData('GME')
 
