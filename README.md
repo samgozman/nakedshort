@@ -1,5 +1,7 @@
 # nakedshort
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C1DI4VL)
+
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/samgozman/nakedshort/Nakedshort%20Node.js)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/652681ae222f4ea8b0cbae3116c3e973)](https://www.codacy.com/gh/samgozman/nakedshort/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=samgozman/nakedshort&amp;utm_campaign=Badge_Grade)
 [![npm](https://img.shields.io/npm/v/nakedshort)](https://www.npmjs.com/package/nakedshort)
