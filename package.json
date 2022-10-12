@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/samgozman/nakedshort#readme",
   "dependencies": {
-    "got": "^11.8.2"
+    "got": "^12.5.2"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
